@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;500&family=Open+Sans:ital@1&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Kiwi Maru', sans-serif; 
+}
+
+.header-line {
+    height: 1rem;
+    background-color: #006341;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.header-left img {
+    width: 64px;
+    height: 64px;
+}
+
+.header-body {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.search form{
+    display: flex;
+}
+
+.search input {
+    font-size: 16px;
+    border: 1px solid #9999;
+    padding: 7px 10px;
+    outline: 0;
+    width: 100%;
+    max-width: 220px;
+}
+
+.search button{
+    border: 0;
+    background: transparent;
+    margin-left: -30px;
+}
+
+.search button img{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+
+}
+
+.header-menu {
+    margin-left: 50px;
+
+}
+
+.header-menu img {
+    height: 24px;
+    width: 24px;
+}
